@@ -110,7 +110,7 @@ function runGamesplash(deltaTime)
     //Setting name
     context.fillStyle = "#ffffff";
     context.font= "12px Arial";
-    context.fillText("AIE Project by Michele A.", 2, SCREEN_HEIGHT - 2)
+    context.fillText("By Group 7 (Jordan and Michele).", 2, SCREEN_HEIGHT - 2)
     
     context.fillStyle = "#ffffff";
     context.font = "60px Agency FB";
