@@ -1,0 +1,28 @@
+Game Introduction
+-----------------
+The game places you in the cockpit of a WW2 aircraft thrust into combat as a fighter ace. 
+You as your countrys greatest fighter pilot are tasked with destroying the enemy air force and fleet. 
+It will only be you, the fighter pilot ace verses the entire enemy force. Can you defeat them and save your country?
+Or will you fall heroically in battle?
+
+Core Game Mechanics
+-------------------
+- Singleplayer (Bullet hell shooter)
+- Dogfighting arial combat (Using a modified version of platfomer physics)
+- hordes and hordes of enemies (using the asteroids spawn code)
+	number of enemies increase the longer you survive (max no of enemies increase as deltaTime increases)
+- both air and naval enemies that will shoot to kill the player (bullets)
+- achieve the highest score possible / survive as long a possible (A countup using delta time directly)
+- slow health regen over time (using defult player health and plus to it using deltaTime)
+- items such as increase range, bullets fired at once, speed and lives
+	- Some items that the player picks up can increase the amount of bullets that the enemy can fire, health and even increase their spawn rate
+
+
+Game Engine
+-----------
+- 2D Sidescroller style (side scrolling from platfomer. This will be looped around so the map won't run out)
+
+Objectives
+-------------------------
+- The longer the player survives, the more upgrades will be dropped and the
+  amount of enemies will increase until the player dies.
